@@ -85,7 +85,7 @@ class ActionController extends Controller
                 'car_id'=>$request->car_id,
                 'direction_old'=>$request->direction_old,
                 'direction_new'=>$request->direction_new,
-                'Dat_time'=>$request->Dat_time,
+                'Dat_time'=>date('Y-m-d'),
             ]);
 
             dd('action is updated');
